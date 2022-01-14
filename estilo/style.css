@@ -17,6 +17,9 @@
     --cor4:#1a5c37;
     --cor5:#063d1e;
 
+    --cor06--gradient: linear-gradient(to bottom, rgba(71, 66, 116, 0.884), purple);
+
+
 /*fontes*/
 
 --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
@@ -35,8 +38,8 @@ body {
     font-family: var(--fonte-padrao);
 }
 header {
-    background-image: linear-gradient(to bottom, rgb(71, 66, 116), purple);
-    min-height: 150px;
+    background-image: var(--cor06--gradient);
+    min-height: 120px;
     text-align: center;
     padding-top: 20px;
 }
